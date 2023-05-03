@@ -8,8 +8,6 @@ This is a three-part project focused on developing a better understanding of dat
 - [Project 1: Extracting Time Series Properties of Glucose Levels in Artificial Pancreas](#project-1)
 - [Project 2: Machine Model Training](#project-2)
 - [Project 3: Cluster Validation](#project-3)
-- [Installation and Usage](#installation-and-usage)
-- [License](#license)
 
 ## Introduction
 
@@ -41,12 +39,3 @@ In this part of the project, a machine model is trained to distinguish between m
 ## Project 3: Cluster Validation
 
 In this part of the project, cluster validation is performed on the data set. The process involves extracting ground truth values for each data point in the data set and applying clustering techniques to separate the meal data into groups based on the amount of carbohydrates each meal contains. The clustering algorithms used include KMeans and Density Based Spatial Clustering of Applications with Noise (DBSCAN).
-
-## Installation and Usage
-
-To set up the project and run the code, follow these steps:
-
-1. Clone this repository: `git clone https://github.com/yourusername/Artificial-Pancreas-Medical-Control-System.git`
-2. Navigate to the project folder: `cd Artificial-Pancreas-Medical-Control-System`
-3. Install required packages: `pip install -r requirements.txt`
-4. Run the desired Python script from the command line, passing the required CSV files as arguments, for example: `python project_1.py CGMData.csv Insulin
